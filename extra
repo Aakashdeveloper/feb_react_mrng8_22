@@ -57,5 +57,59 @@ using component based structure
 open source
 
 186863
+///////Json////
+way to represent data
+[
+    {
+        "name":"John",
+        "class":"UI",
+        "city":"Paris"
+    },
+    {
+        "name":"Amit",
+        "class":"React",
+        "city":"Mumbai"
+    }
+]
+
+////package.json///////
+> Entry Point to the app
+> First file in the app
+> all the packages
+> command start,build,test
+> meta data (name,description,version)
+
+////Step to generate package.json///////
+**NodeJs must be install in system
+> go inside the folder using terminal/cmd
+> npm init
+> answer all questions
+> type "yes"
+
+////Step to install packages///////
+> go inside the folder using terminal/cmd
+> npm i packagename
 
 /////setup react in system/////
+> go inside the folder using terminal/cmd
+> npx create-react-app appname
+
+
+////////////////////////////////
+# Window
+>>One Time in new system
+> open the cmd as administrator
+> npm i -g create-react-app
+
+>>Next All Time you need new app
+> go inside the folder using cmd
+> create-react-app appname
+
+# Mac/Linux
+>>One Time in new system
+> open terminal
+> sudo npm i -g create-react-app
+
+>>Next All Time you need new app
+> go inside the folder using terminal
+> create-react-app appname
