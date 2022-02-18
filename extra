@@ -16,6 +16,8 @@ https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibn
 > spellCheck
 > eslint
 
+> https://github.com/Aakashdeveloper/feb_react_mrng8_22
+
 
 html
 css
@@ -113,3 +115,27 @@ way to represent data
 >>Next All Time you need new app
 > go inside the folder using terminal
 > create-react-app appname
+
+
+////Step to run react app///////
+> go inside the folder using terminal/cmd
+> npm start
+
+react > react is the main library
+react-script > react script help to run the application
+react-dom > help to render the content
+
+//es5 > ecmaScript5
+function add(a,b){
+    return a+b
+}
+
+//es6 > ecmaScript6
+const add = (a,b) => { return a+b}
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
+2
