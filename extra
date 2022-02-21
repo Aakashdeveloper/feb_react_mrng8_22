@@ -133,9 +133,25 @@ function add(a,b){
 //es6 > ecmaScript6
 const add = (a,b) => { return a+b}
 
+
+
 function add(a,b){
     return a,b
 }
 
 add(1,2)
 2
+
+
+//////
+class
+> Logical Component
+> calling api, write logic,display
+> can maintain state
+
+functional
+> Dumb Component
+> display purpose
+> cannot maintain state
+
+hookscomponent
