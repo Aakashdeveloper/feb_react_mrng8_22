@@ -155,3 +155,22 @@ functional
 > cannot maintain state
 
 hookscomponent
+
+//////////////////
+head 
+>>> all the linking with css,javascript
+>>> contains title of the page
+
+body
+>>> All the thing which is visible to the user
+
+
+inline Element
+> that always in same line
+> take only space which is required
+> span a img
+
+block level
+> that always in new line
+> take space of whole width
+> p div h1-h6
