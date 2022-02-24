@@ -1,0 +1,17 @@
+// clone code
+git clone https://github.com/Aakashdeveloper/feb_react_mrng8_22
+
+>> to get latest Code
+git pull
+
+//// first time from new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/aakashProfile.git
+git push -u origin master
+
+//// next all time from same folder
+git add .
+git commit -m "first commit"
+git push

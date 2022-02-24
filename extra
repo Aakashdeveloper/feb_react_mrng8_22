@@ -174,3 +174,44 @@ block level
 > that always in new line
 > take space of whole width
 > p div h1-h6
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+////////////////
+css
+////////////////
+inline
+StyleTag
+StyleSheet
+
+inline > StyleTag > StyleSheet
+
+div
+
+inline
+{
+    color:red,
+    font-size:30px
+}
+
+StyleTag
+{
+    color:green,
+    text-align:center;
+    border:none
+}
+
+StyleSheet
+{
+    font-size:40px;
+    text-align:right;
+    border-radius:50%
+}
+
+{
+   color:red;
+   font-size:30px;
+   text-align:center;
+   border:none;
+   border-radius:50%
+}
