@@ -1,0 +1,40 @@
+h1{
+    color:red
+}
+.card{
+    height:400px;
+    width:22%;
+    background-color:#438ac1;
+    float:left;
+    margin-left:2%;
+    overflow: scroll;
+}
+
+.purple{
+    background-color:#675a55;
+}
+
+#brown{
+    background-color:#5a3127;
+}
+
+.blue{
+    background-color:#196896;
+}
+
+.card > img {
+    height:200px;
+    width:100%
+}
+.subHeading{
+    text-align:center;
+    color:white
+}
+#heading{
+    color:teal;
+    font-size:30px
+}
+
+#main{
+    display: inline-block;
+}

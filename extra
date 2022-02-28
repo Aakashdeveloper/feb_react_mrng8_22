@@ -215,3 +215,10 @@ StyleSheet
    border:none;
    border-radius:50%
 }
+
+////////////////
+TagName > a, p, div, img
+className(.) > to target group of Element with same property
+Id(#) > to target something unique
+
+position in css
