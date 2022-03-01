@@ -1,23 +1,100 @@
-#heading{
+body{
+    margin:auto
+}
+#header{
     height:60px;
     width:100%;
-    border:2px solid red
+    background-color:#d06a36
 }
+
+#icon{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    margin-left: 1%;
+    margin-top: 10px;
+    position:absolute;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+a{
+    text-decoration:none
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+/* Search CSS */
 
 #search{
-    height:400px;
+    height:450px;
     width:100%;
-    border:5px groove green
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size:100% 450px;
 }
 
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top:2%;
+    position:absolute;
+    font-size:80px;
+    text-align:center;
+}
+
+#logo >span{
+    margin-left: -34%;
+    margin-top: 18%;
+    position:absolute;
+}
+
+#heading{
+    font-size:45px;
+    text-align:center;
+    margin-left: 31%;
+    color:white;
+    margin-top:15%;
+    position:absolute;
+}
+
+.dropDown{
+    height:60px;
+    width:50%;
+    margin-top:22%;
+    margin-left:25%;
+    position:absolute;
+}
+
+select{
+    height:60px;
+    width:42%;
+    font-size:20px
+}
+#restSelect{
+    width:57%;
+}
+
+/* Quick Search CSS */
 #quickSearch{
     height:600px;
-    width:100%;
-    border:2px dashed blue
+    width:80%;
+    border:2px dashed blue;
+    margin-left:10%;
+    margin-top:3%
 }
 
 #footer{
     height:60px;
     width:100%;
-    border:6px double orange
 }
