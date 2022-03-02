@@ -44,7 +44,7 @@ a{
 #logo{
     height:150px;
     width:150px;
-    background-color: white;
+    background-color: rgb(255 255 255 / 53%);
     border-radius: 50%;
     margin-left: 43%;
     margin-top:2%;
@@ -89,12 +89,74 @@ select{
 #quickSearch{
     height:600px;
     width:80%;
-    border:2px dashed blue;
     margin-left:10%;
     margin-top:3%
 }
 
+.quickHeading{
+    color:#d06a36;
+    font-size: 30px;
+    font-weight: bold;
+    display:block;
+    margin-left:2%
+    
+}
+
+.quickSubHeading{
+    color:gray;
+    font-size: 20px;
+    line-height: 3; 
+    margin-left:2%
+}
+
+.mainContainer{
+
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-top:3%;
+    display: inline-block;
+    margin-left:2%;
+    box-shadow: 10px 20px 10px gray;
+}
+
+.tileComponent1{
+    width:45%;
+    float: left;
+    height: 180px;
+    background-color:red
+}
+
+.tileComponent1 >img {
+    height: 180px;
+    width:100%
+}
+
+.tileComponent2{
+    width:52%;
+    float: left;
+    height: 180px;
+    margin-top:14%;
+    margin-left:3%
+}
+
+.componentHeading{
+    color:#d06a36;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 18px;
+}
+
 #footer{
-    height:60px;
+    height:40px;
     width:100%;
+    background-color:#d06a36;
+    text-align: center;
+    font-size:20px;
+    padding:20px
 }
