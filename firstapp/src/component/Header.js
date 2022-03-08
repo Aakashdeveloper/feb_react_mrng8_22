@@ -1,28 +1,36 @@
 import React,{Fragment,Component} from 'react'
+import './header.css';
 
 class Header extends Component {
+
+    constructor(props){
+        super(props)
+
+        this.state={
+            title:'React App',
+            keyword:'User Input here'
+        }
+    }
+
+    handleChange = (event) => {
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value})
+    }
+
     render(){
         return(
             <Fragment>
-                <center>
-                    <h1>Developer Funnel</h1>
-                </center>
+                <header>
+                    <div className="logo">{this.state.title}</div>
+                    <center>
+                        <input onChange={this.handleChange}/>
+                        <div style={{color:'white',fontSize:'20px'}}>{this.state.keyword}</div>
+                    </center>
+                </header>
                 <hr/>
             </Fragment>
         ) 
     }
 }
 
-
-/*
-const Header = () => {
-    return(
-        <Fragment>
-            <center>
-                <h1>Developer Funnel</h1>
-            </center>
-            <hr/>
-        </Fragment>
-    )
-}*/
 export default Header

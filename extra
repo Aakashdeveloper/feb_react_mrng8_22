@@ -143,16 +143,6 @@ add(1,2)
 2
 
 
-//////
-class
-> Logical Component
-> calling api, write logic,display
-> can maintain state
-
-functional
-> Dumb Component
-> display purpose
-> cannot maintain state
 
 hookscomponent
 
@@ -222,3 +212,93 @@ className(.) > to target group of Element with same property
 Id(#) > to target something unique
 
 position in css
+
+////// 12 gird ////////////
+//bs3
+xs > 768px,
+sm < 768px;
+md < 992px; 
+lg < 1200px
+//
+
+//////
+class
+> Logical Component
+> calling api, write logic,display
+> can maintain state
+
+functional
+> Dumb Component
+> display purpose
+> cannot maintain state
+
+
+////
+State
+> State act like local variable
+> Every Component can have its own state
+> State can be accesible in same component or nested
+> We can update the value of state(mutable)
+
+Props
+> Props help to transfer the data
+> Data can be  transfer in between nested components
+> We cannot update value of props (immutable)
+
+// javascript
+maps
+filter
+indexof
+
+var a = [4,7,3,8]
+a.map((data) => {return data*2})
+[8, 14, 6, 16]
+
+
+var a = [4,7,3,8]
+a.map((data) => {return `<p>${data}</p>`})
+
+ ['<p>4</p>', '<p>7</p>', '<p>3</p>', '<p>8</p>']
+
+//es5
+var age = 10
+var out = My age is '+a;
+"My age is 10"
+
+//es6
+let age = 10
+let out = `My age is ${a}`
+out
+'My age is 10'
+
+
+var a = [4,7,3,8];
+
+for(i=0;i<a.length;i++){
+    if(name =="a"){
+       a[i]= name
+    }
+}
+
+var a = [
+    {
+        "name":"John",
+        "city":"Delhi"
+    },
+    {
+        "name":"Ankit",
+        "city":"Newyork"
+    }
+];
+
+name == "Ankit"
+
+
+a[1].name = "Ankit"
+
+
+a.map((data) => {
+     if(data.name == "Ankit"){
+       a.splice()
+    }
+    return `<p>${data}</p>`})

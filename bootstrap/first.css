@@ -1,0 +1,43 @@
+.btn-info{
+    background-color: olive !important;
+}
+
+#first{
+    height:200px;
+    background-color:lightcoral
+}
+
+#second{
+    height:200px;
+    background-color:rgb(229, 246, 153)
+}
+
+#third{
+    height:200px;
+    background-color:rgb(233, 156, 248)
+}
+
+#four{
+    height:200px;
+    background-color:rgb(159, 250, 163)
+}
+
+#five{
+    height:200px;
+    background-color:rgb(159, 239, 250)
+}
+
+#six{
+    height:200px;
+    background-color:rgb(250, 180, 159)
+}
+
+#seven{
+    height:200px;
+    background-color:rgb(22, 136, 89)
+}
+
+.glyphicon-edit{
+    font-size:30px;
+    color:blue
+}
