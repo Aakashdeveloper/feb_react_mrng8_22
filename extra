@@ -302,3 +302,37 @@ a.map((data) => {
        a.splice()
     }
     return `<p>${data}</p>`})
+
+
+var a = [5,7,9,3,6,2,8]
+a.filter((data) => { return data<5})
+
+var a = [5,7,9,3,6,2,8]
+a.filter((data) => { return data>5})
+(4) [7, 9, 6, 8]
+
+var city = ['Delhi', 'Mumbai', 'London', 'Helsinki', 'Venice', 'Amsterdam']
+city.indexOf('Delhi')
+0
+city.indexOf('Venice')
+4
+city.indexOf('Pune')
+-1
+city.indexOf('Boston')
+-1
+
+parent => child (props)
+child => Parent (props with function)
+
+parent (define function)
+child (call function)
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+3
+
+ npm i react-router-dom@5.3.0
