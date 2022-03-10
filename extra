@@ -336,3 +336,16 @@ add(1,2)
 3
 
  npm i react-router-dom@5.3.0
+
+ ///params (/)
+ > it is compulsory to define the params
+ > mainly use for single data
+
+ ///queryParams (?)
+ > no need to  define
+ > use to pass more than one record
+
+ /// default props under routing
+ > history   >> use for redirection
+ > location  >> use for query params
+ > match     >> use for params
