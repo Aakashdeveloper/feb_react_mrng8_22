@@ -2,7 +2,7 @@ import React from 'react';
 import Search from './Search';
 import QuickSearch from './QuickSearch';
 
-const Home = () => {
+const Home = (props) => {
     return(
         <>
             <Search/>
